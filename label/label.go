@@ -64,13 +64,13 @@ func (self *Label) Get(name string) (string, error) {
 
 func NewLabel() *Label {
 	return &Label{colors: map[string] int {
-		"red": 1,
+		"grey": 1,
+		"gray": 1,
 		"green": 2,
 		"purple": 3,
 		"blue": 4,
 		"yellow": 5,
-		"grey": 6,
-		"gray": 6,
+		"red": 6,
 		"orange": 7,
 	}}
 }
